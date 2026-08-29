@@ -8,6 +8,52 @@ h1 {
 }
 
 p {
-    color: #e22121;
+    color: #150a90;
     font-size: 20px;
+}
+
+button {
+    color: #1d848e;
+    font-size: 40px;
+    border-radius: 10px;
+    border-color: #2da9a5;
+    border-width: 5px;
+    background-color: blanchedalmond;
+}
+
+
+.headlinks {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 30px;
+    background-color: #20a2ff;
+    border-radius: 20px;
+    border-style: hidden;
+}
+
+.header {
+    border-style: solid;
+    border-radius:4px;
+    padding:5px 20px;
+    margin:6px;
+    border-width:4px;
+    text-decoration:none;
+    background-color:rgb(92, 143, 237);
+}
+
+a:link {
+  color: #2c629c; /* Unvisited link */
+}
+
+a:visited {
+  color: #2c629c; /* Visited link (prevents the purple color) */
+}
+
+a:hover {
+  color: #002fff; /* Color when hovering over the link */
+}
+
+a:active {
+  color: #9fa0db; /* Color when the link is actively being clicked */
 }
